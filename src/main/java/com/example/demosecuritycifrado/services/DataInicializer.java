@@ -20,17 +20,17 @@ public class DataInicializer implements CommandLineRunner {
 
 //        User admin = new User(null, "ariel_adm", encoder.encode("Password1234."));
 //        repository.save(admin);
-
-        User user2 = User.builder()
-                .username("mod")
-                .password(encoder.encode("12345"))
-                .build();
-        repository.save(user2);
-
-        this.repository.save(User.builder()
-                .username("usuario")
-                .password(this.encoder.encode("1234"))
-                .build());
+//
+//        User user2 = User.builder()
+//                .username("mod")
+//                .password(encoder.encode("12345"))
+//                .build();
+//        repository.save(user2);
+//
+//        this.repository.save(User.builder()
+//                .username("usuario")
+//                .password(this.encoder.encode("1234"))
+//                .build());
     }
 
 }

@@ -9,7 +9,7 @@ import lombok.*;
 @AllArgsConstructor
 @ToString
 @EqualsAndHashCode
-@Builder
+//@Builder
 //@Value // igual a Data pero inmutable, todos los campos privados y finales
 //@Data //  un constructor que inicializa los campos finales y no finales marcados con NonNull, getter/setter, to String
 public class User {

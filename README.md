@@ -13,7 +13,7 @@ La seguridad se gana haciendo que la validacion de contraseñas sea costosa comp
 
 ## Algoritmos en Spring Security
 
-* Bcrypt
+* BCrypt
 * PBKDF2
-* script
-* argon2
+* SCrypt
+* Argon2
