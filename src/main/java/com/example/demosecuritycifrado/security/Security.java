@@ -1,4 +1,4 @@
-package com.example.demosecuritycifrado.services;
+package com.example.demosecuritycifrado.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;

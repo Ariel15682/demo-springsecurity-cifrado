@@ -1,6 +1,5 @@
 package com.example.demosecuritycifrado;
 
-import com.example.demosecuritycifrado.services.Security;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
